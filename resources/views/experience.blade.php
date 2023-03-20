@@ -57,11 +57,10 @@
             </ul>
         </div>
     </div>
-    <div class="seperate-column bottom-screen" style="margin-top:30px">
-        <img style="height:150px"src="<?php echo e(asset('/Image/glyph_2.png')); ?>" alt="">
-        <img style="height:150px" src="<?php echo e(asset('/Image/glyph_1.png')); ?>" alt="">
-        <img style="height:150px"src="<?php echo e(asset('/Image/glyph_4.png')); ?>" alt="">
-        <img style="height:150px"src="<?php echo e(asset('/Image/glyph_3.png')); ?>" alt="">
-       
+    <div class="seperate-column bottom-screen">
+        <img style="height:120px; margin-left:24px"src="{{asset('/Image/glyph_1.png')}}" alt="">
+        <img style="height:120px" src="{{asset('/Image/glyph_2.png')}}" alt="">
+        <img style="height:120px"src="{{asset('/Image/glyph_3.png')}}" alt="">
+        <img style="height:120px; margin-right:24px"src="{{asset('/Image/glyph_4.png')}}" alt="">
     </div>
 </x-app-layout>
