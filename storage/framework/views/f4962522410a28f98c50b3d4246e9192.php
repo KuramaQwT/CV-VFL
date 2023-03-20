@@ -7,7 +7,7 @@
 <?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
 <?php endif; ?>
 <?php $component->withAttributes([]); ?>
-    <head>
+<head>
     <link rel="stylesheet" href="<?php echo e(asset('/css/style.css')); ?>"/>
     
     </head>
@@ -72,7 +72,6 @@
         <img style="height:150px"src="<?php echo e(asset('/Image/glyph_3.png')); ?>" alt="">
        
     </div>
-    
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
 <?php if (isset($__componentOriginal9ac128a9029c0e4701924bd2d73d7f54)): ?>

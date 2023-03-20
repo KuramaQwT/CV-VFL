@@ -7,7 +7,7 @@
 <?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
 <?php endif; ?>
 <?php $component->withAttributes([]); ?>
-    <head>
+<head>
     <link rel="stylesheet" href="<?php echo e(asset('/css/style.css')); ?>"/>
     
     </head>
@@ -53,15 +53,14 @@
         </div>
         <div>
             <div>
-                <h4 class="break-word bottom-right-screen" style="right:408px ;bottom: 438px; color:black; z-index:100; font-size:20px;text-align:center" >Check out my portfolio website <a href="https://vanfl.wordpress.com">here!</a></h4>
+                <h4 class="break-word bottom-right-screen" style="right:386px ;bottom: 356px; color:black; z-index:100; font-size:20px;text-align:center" >Check out my portfolio website <a href="https://vanfl.wordpress.com">here!</a></h4>
 
             </div>
-            <img class="bottom-right-screen" style="transform: scaleX(-1); right:380px ;bottom: 370px;" src="<?php echo e(asset('/Image/bubble_chat.png')); ?>" alt="bubble chat">
+            <img class="bottom-right-screen" style="transform: scaleX(-1); right:380px ;bottom: 305px;" src="<?php echo e(asset('/Image/bubble_chat.png')); ?>" alt="bubble chat">
         
             <img  class="bottom-right-screen" src="<?php echo e(asset('/Image/luz.png')); ?>" alt="luz img">
         </div>
 </div>
-
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
 <?php if (isset($__componentOriginal9ac128a9029c0e4701924bd2d73d7f54)): ?>
